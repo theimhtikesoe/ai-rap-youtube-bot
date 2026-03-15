@@ -14,3 +14,8 @@ lyrics/processed
 __pycache__
 *.pyc
 .venv
+frontend/.next
+frontend/.vercel
+backend/uploads
+backend/outputs
+backend/logs

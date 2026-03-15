@@ -79,7 +79,7 @@ def generate_image(analysis):
     raise ValueError("analysis.visual_prompt is required")
 
   prompt = analysis["visual_prompt"].strip()
-  prompt = f\"{prompt}, no text, no logos, no watermark, no typography, no play button, no youtube icon\"
+  prompt = f"{prompt}, no text, no logos, no watermark, no typography, no play button, no youtube icon"
 
   _log("Generating image with ComfyUI")
 

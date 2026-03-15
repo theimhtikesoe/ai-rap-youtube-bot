@@ -5,3 +5,12 @@ node_modules
 videos
 ComfyUI
 stable-diffusion-webui
+.DS_Store
+logs
+jobs
+thumbnails/
+lyrics/processed
+/taming-transformers/
+__pycache__
+*.pyc
+.venv

@@ -9,7 +9,8 @@
 }
 
 body {
-  @apply bg-sand text-ink font-["Space Grotesk",sans-serif];
+  @apply bg-sand text-ink;
+  font-family: "Space Grotesk", sans-serif;
   background-image: radial-gradient(1200px 600px at 10% -20%, #ffe7c2, #f8f2ea);
 }
 

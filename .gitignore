@@ -19,3 +19,17 @@ frontend/.vercel
 backend/uploads
 backend/outputs
 backend/logs
+
+# Applio / voice-training artifacts
+applio/runtime/
+applio/checkpoints/
+applio/logs/
+applio/outputs/
+applio/datasets/
+applio/*.pth
+applio/*.index
+*.pth
+*.index
+*.ckpt
+*.safetensors
+*.onnx
